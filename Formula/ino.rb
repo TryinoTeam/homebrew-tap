@@ -1,26 +1,26 @@
 class Ino < Formula
   desc "Ino Loyalty command line and local MCP server"
   homepage "https://github.com/TryinoTeam/ino-cli"
-  version "0.5.0"
+  version "0.6.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.5.0/ino-0.5.0-osx-arm64.tar.gz"
-      sha256 "bb824937a573d9109b74c43ae04637a0e4aa3cf3f0e85b677fc025f4e4fa168b"
+      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.6.0/ino-0.6.0-osx-arm64.tar.gz"
+      sha256 "b8f9d549da74a0e4c27e00e3fed8fa4f584eb1c46a303f7d5a91a45b43ca3e54"
     else
-      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.5.0/ino-0.5.0-osx-x64.tar.gz"
-      sha256 "7f1f8e89e0b3d2907bbf1f9368c3df33b9d90b6b2da4f46284cfce65a84de240"
+      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.6.0/ino-0.6.0-osx-x64.tar.gz"
+      sha256 "3aa323e9fa980a412105d6d1dcf3352cc5cae59e5174e2f008a35c6a14c837be"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.5.0/ino-0.5.0-linux-arm64.tar.gz"
-      sha256 "95a172b712673931ea56702d499ca2d6dc5160c872744c6ad279dcf0470ef4ed"
+      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.6.0/ino-0.6.0-linux-arm64.tar.gz"
+      sha256 "26cfa925c0751855a566c828477cb67cbfe1cf52978040b297d46bc316ea94f2"
     else
-      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.5.0/ino-0.5.0-linux-x64.tar.gz"
-      sha256 "c3d86ede478f7eeb680c8c49994ab51bacf18906cbb3a721fb7b5af13e8bf591"
+      url "https://github.com/TryinoTeam/ino-cli/releases/download/v0.6.0/ino-0.6.0-linux-x64.tar.gz"
+      sha256 "28824f9957ba48c3600f674aff7aaa5943653961a8818279ce09fc70921e897e"
     end
   end
 
